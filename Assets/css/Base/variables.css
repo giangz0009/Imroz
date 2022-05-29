@@ -1,0 +1,39 @@
+:root {
+  /* Font size */
+  --fz-sm: 1.4rem;
+  --fz-md: 1.6rem;
+  --fz-lg: 1.8rem;
+  --fz-xl: 2rem;
+  --fz-2-xl: 2.4rem;
+  --fz-3-xl: 3rem;
+  --fz-3-6-xl: 3.6rem;
+  --fz-4-xl: 5rem;
+  --fz-5-xl: 10rem;
+  /* Font Weight */
+  --fw-extra-light: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
+  --fw-extra-bold: 700;
+  /* Color */
+  --c-primary: #fd4766;
+  --c-primary-rgb: 249, 0, 77;
+  --c-secondary: #337dff;
+  --c-secondary-rgb: 253, 71, 102;
+  --c-heading-linear: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    var(--c-primary) 79.69%
+  );
+  --c-border: #e6e6e6;
+  --c-white: #fff;
+  --c-dark: #1f1f25;
+  --c-1-300: rgb(126, 126, 126);
+  --c-1-400: rgba(29, 29, 36, 0.75);
+  --c-1-500: rgb(24, 24, 27);
+  --c-1-600: rgb(31, 31, 37);
+
+  --c-2-400: rgb(140, 140, 140);
+}

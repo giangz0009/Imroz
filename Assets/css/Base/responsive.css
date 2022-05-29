@@ -1,0 +1,39 @@
+:root {
+  --break-point-sm: 576px;
+  --break-point-md: 768px;
+  --break-point-lg: 992px;
+  --break-point-xl: 1200px;
+  --break-point-xxl: 1400px;
+}
+
+@media screen and (min-width: var(--break-point-sm)) {
+}
+@media screen and (min-width: var(--break-point-md)) {
+}
+@media screen and (min-width: var(--break-point-lg)) {
+  /* Carousel */
+  .carousel .carousel-item {
+    height: 720px;
+  }
+  .carousel .carousel-item .carousel-caption h5 {
+    font-size: var(--fz-5-xl);
+  }
+  .carousel .carousel-item .carousel-caption p {
+    font-size: var(--fz-2-xl);
+    line-height: 4rem;
+  }
+  .carousel button[class*="carousel-control-"] {
+    display: flex;
+  }
+}
+@media screen and (min-width: var(--break-point-xl)) {
+  .container {
+    max-width: 1260px;
+  }
+  .carousel img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: var(--break-point-xxl)) {
+}
